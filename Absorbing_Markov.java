@@ -5,39 +5,9 @@ import java.util.Arrays;
 public class Absorbing_Markov {
 
     public static void main(String[] args) {
-        int[][] test =
-                {
-                        {0, 1, 0, 0, 0, 1},
-                        {4, 0, 0, 3, 2, 0},
-                        {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0},
-                };
-
-        int[][] test2 =
-                {
-                        {1, 1, 0, 0, 0, 1},
-                        {4, 2, 0, 0, 2, 0},
-                        {0, 0, 0, 0, 0, 0},
-                        {3, 4, 0, 0, 0, 1},
-                        {0, 0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0, 0}
-                };
-        int[][] test3 =
-                {
-                        {0, 2, 1, 0, 0},
-                        {0, 0, 0, 3, 4},
-                        {0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0},
-                        {0, 0, 0, 0, 0}
-                };
-        int[][] test4 = {{0}};
-
-        int[] result = solution(test3);
-        for (int e : result) {
-            System.out.print(e + " ");
-        }
+        //Some 2D integer array with at least one row {0, 0, 0, 0,..., 0};
+        //Assuming row 0 is the initial state
+        //solution(some 2D int array) returns the probabilities of ending in any given steady state.
     }
 
     public static int[] solution(int[][] m) {
