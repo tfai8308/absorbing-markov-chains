@@ -15,7 +15,7 @@ public class Frame extends JFrame {
 
     public Frame(String name) {
 
-        //temp fix because tiny ass font
+        //temp fix because tiny font
         UIManager.put("Label.font", new FontUIResource(new Font("Dialog", Font.PLAIN, 50)));
         UIManager.put("Button.font", new FontUIResource(new Font("Dialog", Font.PLAIN, 50)));
         UIManager.put("TextField.font", new FontUIResource(new Font("Dialog", Font.PLAIN, 50)));
